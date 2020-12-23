@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마일리지 관리 시스템 (기말 과제)</title>
+    <script src="기말과제.js"></script>
+    <link rel="stylesheet" href="기말과제.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1>Mileage Manager</h1>
+    <hr>
+    적립할 금액: 
+    <input id="amount" type="text" size = "18" readonly>
+    <button id="setAmount">확인</button>
+    <p></p>
+    전화번호: 
+    <input type="text" id="phoneNumber" size="18" readonly>
+    <button id="save">저장</button>
+    <button id="cancel" onclick="localStorage.removeItem($('#phoneNumber').val())">취소</button>
+    <hr>
+
+    <button class="btnNumber" value="7">7</button>
+    <button class="btnNumber" value="8">8</button>
+    <button class="btnNumber" value="9">9</button>   
+    <button id="x" onclick="touchBackSpace()">X</button>
+    <button id="c" onclick="$('#phoneNumber').val('')">C</button>
+
+    <hr>
+    <button class="btnNumber" value="4">4</button>
+    <button class="btnNumber" value="5">5</button>
+    <button class="btnNumber" value="6">6</button>
+
+    <hr>
+    <button class="btnNumber" value="1">1</button>
+    <button class="btnNumber" value="2">2</button>
+    <button class="btnNumber" value="3">3</button>
+
+    <hr>
+    <button class="btnNumber" value="010-">010</button>
+    <button class="btnNumber" value="0">0</button>
+    
+</body>
+</html>

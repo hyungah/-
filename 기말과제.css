@@ -1,0 +1,23 @@
+input {
+    font-size: 27pt;
+    border: 1px solid lightgray;
+    background-color: cornsilk;
+    text-align: right;
+}
+.btnNumber {
+    width: 40px;
+    height: 40px;
+    color: gray;
+}
+#x {
+    background-color: lightskyblue;
+    width: 40px;
+    height: 40px;
+    color: gray;
+}
+#c {
+    background-color:  pink;
+    width: 40px;
+    height: 40px;
+    color: gray;
+}
